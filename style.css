@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(20, 54, 32);
+    background-color: green;
+    background-image: linear-gradient(green, white);
     font-family: 'Roboto Mono', monospace;
     min-height: 854px;
     /* background-image: url("https://pngimg.com/uploads/anime_girl/anime_girl_PNG68.png"); */
-    background-color: rgba(100, 255, 108, 0.4);;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -81,6 +81,8 @@ p {
     display: flex;
     background-color: rgb(238, 255, 0); 
     margin-bottom: 60px;  
+    display: flex;
+    justify-content: center;
 }
 
 .navbar a {
