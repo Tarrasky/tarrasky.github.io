@@ -1,57 +1,43 @@
-body {
-    background-color: green;
-    background-image: linear-gradient(green, white);
-    font-family: 'Roboto Mono', monospace;
-    min-height: 854px;
-    /* background-image: url("https://pngimg.com/uploads/anime_girl/anime_girl_PNG68.png"); */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/*
+    PALETA DE CORES - COMPONENTES
+
+    Cor principal: #77BF5A
+    Cor secundária: #9FD5B6
+
+    // DARK 
+    Cor principal: #1c1c1c
+    Cor secundária: #2c2c2c
+
+    Cor de acentuação: #304686
+    
+    PALETA DE CORES TEXTO;
+
+    Cor principal: #E1E1E1
+    Cor secundária: #2c2c2c
+
+*/
+
+
+.site {
+    /* background-color: green;
+    background-image: linear-gradient(green, white); */
+    font-family: 'Varela Round', sans-serif;
+    background-image: url("./assets/bg2.png");
+    background-color: #183646;
+    color: #E1E1E1;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    padding-bottom: 20vh;
+    padding-bottom: 5rem;
     text-align: center;
-}
-.header {
-    color: rgb(255, 255, 255);
-    background-color: rgb(9, 110, 40);
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    width: 850px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgb(238, 255, 0);
-    font-size: x-large;
-    margin-bottom: 200px;
 }
 
-footer {
-    color: black;
-    background-color: rgb(201, 63, 97);
-    border-radius: 5px;
-    padding: 5px;
-    width: 400px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgb(238, 255, 0);
-    font-size: medium;
-    text-align: center;
-    font-style: italic;
-    align-items: flex-end;
-}
-.text {
-    font-family: 'Roboto Mono', monospace;
-}
-h2 {
-    font-size:large;
-    text-align: left;
-    margin-bottom: 2px;
-    background-color: blue;
-    color: white;
-    margin: 20px;
-}
-p {
-    font-family: sans-serif;
-    font-size: small;
-    text-align: left;
-    margin: 20px;
+
+.titulo-seccao {
+    font-size: 20px;
+    margin: 20px 5px;
 }
 
 .container {
@@ -65,35 +51,45 @@ p {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    color: black;
-    background-color: rgb(63, 201, 70);
-    border-radius: 1px;
-    padding: 1px;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 16px 12px;
     width: 33%;
     margin: 20px;
-    text-align: center;
     line-height: 30px;
-    font-size: 20px;
-    box-shadow: 3px 3px 10px rgb(0, 4, 255);
+    box-shadow: #2c2c2c 1px 1px 10px;
+}
+
+.titulo-container {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.texto-container {
+    text-align: left;
+    font-size: 14px;
 }
 
 .navbar {
     display: flex;
-    background-color: rgb(238, 255, 0); 
+    background-color: #304686; 
     margin-bottom: 60px;  
     display: flex;
+    border-radius: 8px;
     justify-content: center;
 }
 
 .navbar a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
 }
 .navbar a:hover {
-    background-color: rgb(86, 78, 196);
+    background-color: rgba(255, 255, 255, 0.1);
     color: rgb(255, 255, 255);
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 700px) {
